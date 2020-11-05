@@ -1,4 +1,9 @@
 {
+  "plugins": {
+    "@textlint/markdown": {
+      "extensions": [".md"]
+    }
+  },
   "filters": {},
   "rules": {
     "preset-ja-spacing": true,
