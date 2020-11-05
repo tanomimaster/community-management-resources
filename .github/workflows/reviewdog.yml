@@ -1,4 +1,4 @@
-iname: reviewdog
+name: reviewdog
 on: [pull_request]
 jobs:
   textlint:
