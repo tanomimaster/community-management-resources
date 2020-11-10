@@ -1,0 +1,24 @@
+{
+  "plugins": {
+    "@textlint/markdown": {
+      "extensions": [".md"]
+    }
+  },
+  "filters": {
+    "comments": true,
+    "allowlist": {
+      "allow": [
+        "タノミマスター"
+      ]
+    }
+  },
+  "rules": {
+    "preset-ja-spacing": true,
+    "preset-ja-technical-writing": true,
+    "spellcheck-tech-word": true,
+    "textlint-filter-rule-allowlist": true,
+    "prh": {
+      "rulePaths" :["prh.yml"]
+    }
+  }
+}
